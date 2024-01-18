@@ -38,7 +38,7 @@ EMAILADRESSES=("example1@gmail.com" "example2@gmail.com")
 
 ## Im using gmail & ssmtp to send reports
 
-### Google account needs to be enable 2FA and need a custom Appliaction password
+### Google account needs to be enable 2FA and needs a custom Application password (https://support.google.com/accounts/answer/185833?hl=en)
 
 ### Install ssmtp
 ```
@@ -60,10 +60,12 @@ FromLineOverride=YES
 UseSTARTTLS=YES
 ```
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 then run the backupscript
 ```
 ./backup-local.sh
 ```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
